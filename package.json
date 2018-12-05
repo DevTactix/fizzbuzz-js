@@ -1,0 +1,14 @@
+{
+  "name": "fizzbuzz-js",
+  "version": "1.0.0",
+  "description": "Fizzbuzz demo using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fizzbuzz"
+  ],
+  "author": "Thomas (DevTactix)",
+  "license": "MIT"
+}
