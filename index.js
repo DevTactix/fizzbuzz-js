@@ -1,7 +1,7 @@
 (function fizzbuzz() {
     'use strict';
 
-    const START = 0;
+    const START = 1000;
     const LENGTH = 100;
 
     const isZero = x => x === 0;
@@ -9,7 +9,7 @@
     const isDivisibleBy5 = x => x % 5 === 0;
     const isDivisibleBy3And5 = x => isDivisibleBy3(x) && isDivisibleBy5(x);
 
-    for (let i = START; i <= (LENGTH - 1); i ++) {
+    for (let i = START; i <= (START + LENGTH - 1); i ++) {
         let x = isZero(i) ?
             i.toString()
         : isDivisibleBy3And5(i) ?
